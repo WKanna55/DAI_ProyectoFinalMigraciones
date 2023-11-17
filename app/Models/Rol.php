@@ -11,6 +11,6 @@ class Rol extends Model
 
     public function Usuarios()
     {
-        return $this->hasOne(Usuario::class);
+        return $this->hasOne(User::class);
     }
 }
